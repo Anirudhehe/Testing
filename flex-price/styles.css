@@ -1,0 +1,48 @@
+.pricing-container{
+  display: flex;
+  gap: 2rem;
+  height:100vh ;
+  justify-content: center;
+  align-items: center;
+}
+.pricing-plan{
+  background-color: rgb(227, 227, 227);
+  flex:1;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+.plan-title{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+.plan-price{
+  font-size: 35px;
+  font-weight: bold;
+
+}
+
+.plan-features{
+  align-items: center;
+  line-height: 30px;
+
+
+}
+.plan-button{
+  background-color: orange;
+  border-style: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+ul{
+  list-style-type: none;
+}
+
+
+
+

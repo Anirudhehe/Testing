@@ -1,0 +1,41 @@
+.v{
+  background-color: violet;
+  height: 20pxpx;
+  width: 200px;
+}
+.i{
+  background-color: indigo;
+  height: 20pxpx;
+  width: 200px;
+}
+.b{
+  background-color: blue;
+  height: 20pxpx;
+  width: 200px;
+}
+.g{
+  background-color: green;
+  height: 20pxpx;
+  width: 200px;
+}
+.y{
+  background-color: yellow;
+  height: 20pxpx;
+  width: 200px;
+}
+.o{
+  background-color: orange;
+  height: 20pxpx;
+  width: 200px;
+}
+.r{
+  background-color: red;
+  height: 20pxpx;
+  width: 200px;
+  order: -1;
+}
+.outer{
+  display: flex;
+  flex-wrap: wrap;
+  order: ;
+}

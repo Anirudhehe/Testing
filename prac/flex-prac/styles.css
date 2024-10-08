@@ -1,0 +1,43 @@
+html{
+  background-color: rgb(49, 39, 159);
+}
+@font-face {
+  font-family: 'Apple Garamond';
+  src: url('AppleGaramond.ttf') format('truetype');
+}
+
+h1{
+  font-family: 'Apple Garamond',Helvetica;
+  font-weight:900;
+  font-size: 8rem;
+  text-align: center;
+  color: rgb(249, 164, 254);
+}
+
+.grid{
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  flex-wrap: wrap;
+
+}
+.imag img{
+  width: auto;
+  height: 400px;
+  border-style: dashed;
+  border-color: antiquewhite;
+  box-sizing: border-box;
+  border-width: 4px;
+}
+#pehla{
+  flex-basis: 200px;
+}
+p{
+  font-family:'Courier New', Courier, monospace;
+  color: aliceblue;
+  margin-top: 0px;
+  font-size: 30px;
+}
+@media(min-width: 900px){
+  flex-direction: column;
+}

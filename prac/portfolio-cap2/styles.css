@@ -1,0 +1,23 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 800px 1000px;
+  grid-template-rows: 200px 900px;
+}
+.headi {
+  color: rgb(40, 40, 40);
+  grid-area: 2/1/3/2;
+}
+
+body {
+  background-color: rgb(241, 240, 236);
+}
+h1 {
+  font-size: 10rem;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.imag {
+  grid-area: 1/2/2/3;
+}
